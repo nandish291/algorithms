@@ -27,6 +27,8 @@ import java.util.Map;
  * It's guaranteed that exactly one team will win the tournament and that each team will compete
  * against all other teams exactly once. It's also guaranteed that the tournament will always have
  * at least two teams.
+ *
+ * O(n) time | O(k) space - where n is the number of competitions and k is the number of teams
  */
 public class TournamentWinner {
   public static void main(String[] args) {

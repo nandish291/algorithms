@@ -9,6 +9,8 @@ import java.util.*;
  * traverses the tree using the Depth-first Search approach (specifically navigating the tree from
  * left to right), stores all of the nodes' names in the input array, and returns it.
  *
+ * O(v + e) time | O(v) space - where v is the number of vertices of the input graph and e is
+ * the number of edges of the input graph
  */
 class DFS {
 
